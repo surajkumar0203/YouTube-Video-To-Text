@@ -3,7 +3,7 @@ from YTLogic import videoToText
 import streamlit.components.v1 as components
 
 # header
-st.header("""Convert YT Link To Text 👋 """)
+st.header("""Convert YT Video To Text 👋 """)
 
 label="Enter Valid YT URL"
 title = st.text_input(label,placeholder="Enter Valid YT URL")
