@@ -20,10 +20,10 @@ uv venv
 
 
 ### 4. Activate the virtual environment
-# For Linux/macOS:
+* For Linux/macOS:
 source .venv/bin/activate
 
-# For Windows:
+* For Windows:
 .venv\Scripts\activate.bat
 
 ### 5. Install requirements
