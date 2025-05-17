@@ -1,0 +1,11 @@
+[project]
+name = "yttotext"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pytube>=15.0.0",
+    "pytubefix>=8.13.1",
+    "streamlit>=1.45.1",
+]
