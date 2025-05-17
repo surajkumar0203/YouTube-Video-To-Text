@@ -8,54 +8,32 @@ A simple tool to convert YouTube videos into text.
 
 ### 1. Clone the repository
 
-```bash
+<!-- ```bash -->
 git clone https://github.com/surajkumar0203/YouTube-Video-To-Text.git
 
-2. Navigate into the project directory
+### 2. Navigate into the project directory
 
 cd YouTube-Video-To-Text
 
-
-3. Create a virtual environment
+### 3. Create a virtual environment
 uv venv
 
 
+### 4. Activate the virtual environment
+# For Linux/macOS:
+source .venv/bin/activate
 
+# For Windows:
+.venv\Scripts\activate.bat
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# YouTube-Video-To-Text
-Create YouTube Video To Text
-
-# Copy URL
-git clone https://github.com/surajkumar0203/YouTube-Video-To-Text.git
-
-# Go To
-cd YouTube-Video-To-Text
-
-# Run uv to create virtual environmrnt
-uv venv
-
-# Activate venv
-For Linux source .venv/bin/activate
-For Windows .venv\Scripts\activate.bat
-
-# Install requirement
+### 5. Install requirements
 uv sync
 
-# Run streamit
+### 6. Run Streamlit app
+streamlit run YTLink.py
 
-streamlit run YTLink.py (bydefault run port not 8501)
+
+
+By default, the app runs on port 8501.
+
 
