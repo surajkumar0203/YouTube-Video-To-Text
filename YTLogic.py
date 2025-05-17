@@ -11,12 +11,13 @@ def videoToText(url):
         if subtitles:
             for subtitle in subtitles:
                 caption = yt.captions[subtitle.code]
-                caption.save_captions(f"temp-{yt.title}_{subtitle.code}.txt")
+                caption.save_captions(f"temp-sk_{subtitle.code}.txt")
         else:
             return {"error":"No Subtitles"}
     except VideoUnavailable:
         return {"error":"The video is unavailable."}
     except Exception as e:
+        print(e)
         return {'error':'Check Your URL or Internet'}
 
     directory=os.listdir()
