@@ -13,7 +13,7 @@ def videoToText(url):
                 caption = yt.captions[subtitle.code]
                 caption.save_captions(f"temp-sk_{subtitle.code}.txt")
         else:
-            return {"error":"No Subtitles"}
+            return {"error":subtitles}
     except VideoUnavailable:
         return {"error":"The video is unavailable."}
     except Exception as e:
